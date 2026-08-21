@@ -5,15 +5,20 @@ Privacy policies for published iOS apps, served by GitHub Pages.
 This repository is public **only** so the policy pages resolve at a URL that App Store
 review and AdMob can open. It contains no application source.
 
-| App | Page |
-|---|---|
-| Converter — Units & Currency | [converter.html](converter.html) |
+| App | Page | Purpose |
+|---|---|---|
+| Converter | [converter.html](converter.html) | Privacy policy (App Store + AdMob require it) |
+| Converter | [converter-support.html](converter-support.html) | Support URL (App Store listing requires it) |
 
-## Adding a policy for a new app
+Every App Store listing needs **both** a privacy policy URL and a support URL. Neither
+may 404 — reviewers open them.
 
-1. Copy `converter.html` to `<appname>.html` and edit it
-2. Add a row to the table above and a link in `index.html`
-3. Commit and push — GitHub Pages redeploys automatically
+## Adding pages for a new app
+
+1. Copy `converter.html` and `converter-support.html`, renaming for the new app
+2. Edit the contact address and app-specific sections
+3. Add rows to the table above and links in `index.html`
+4. Commit and push — GitHub Pages redeploys automatically
 
 ## Hosting
 
