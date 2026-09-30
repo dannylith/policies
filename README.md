@@ -9,6 +9,7 @@ review and AdMob can open. It contains no application source.
 |---|---|---|
 | Converter | [converter.html](converter.html) | Privacy policy (App Store + AdMob require it) |
 | Converter | [converter-support.html](converter-support.html) | Support URL (App Store listing requires it) |
+| Color Slide | [colorslide.html](colorslide.html) | Privacy policy (App Store + AdMob require it) |
 
 Every App Store listing needs **both** a privacy policy URL and a support URL. Neither
 may 404 — reviewers open them.
